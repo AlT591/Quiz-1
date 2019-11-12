@@ -1,0 +1,13 @@
+<h1> Welcome to Al's Motors </h1>
+
+<% @cars.each do |car| %>
+  <div>
+   
+    <h2><%= car.make %></h2><br />
+    <h2><%= car.model %></h2><br />
+    <h4><%= car.year %></h4><br />
+    <h4><%= car.color %></h4><br />
+  </div>
+
+  <hr />
+<% end %>
